@@ -1,0 +1,19 @@
+#ripple-section {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background-color: #f0f8ff;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(0, 123, 255, 0.4);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
